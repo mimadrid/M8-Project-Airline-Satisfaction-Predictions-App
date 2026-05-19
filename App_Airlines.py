@@ -38,8 +38,8 @@ elif page == "Data Overview":
 
     st.subheader("About the Data")
     st.write("""
-        The Airline Passenger Satisfaction dataset contains {df.shape[0]} samples of airline passenger experience.
-        For each experience, the dataset includes {df.shape[1]} columns with costumer information like age of class, experience information like inflight entertainment and on-board_service and general passenger satisfaction.
+        The Airline Passenger Satisfaction dataset contains 103.904 samples of airline passenger experience.
+        For each experience, the dataset includes 25 columns with costumer information like age of class, experience information like inflight entertainment and on-board_service and general passenger satisfaction.
     """)
     st.image('https://s.yimg.com/lo/mysterio/api/718ed665823f0c664ed7b2a02b3d1127b4ed04e2d7e1f401657261bd87916a9a/lightyear_networkapi/resizefill_w976;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fislands_423%2F8ab0804c7094c3ffb09127e182bf48bc', caption="On-board service")
 
